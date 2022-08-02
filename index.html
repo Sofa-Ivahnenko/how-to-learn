@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheer" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg">
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Яндекс лого">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
@@ -48,7 +48,7 @@
           </li>
           <li class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
-            <p calss="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
               <p>Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
@@ -89,7 +89,7 @@
       <section class="kaufman">
         <h5 class="kaufman__title_theme_dark">Принципы обучения</h5>
         <p class="kaufman__subtitle_theme_dark">от Джоша Кауфмана</p>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg">
+        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="синий треугольник">
         <ul class="table_theme_dark">
           <li class="table__cell_theme_dark">
             <h6 class="table__heading_theme_dark">1</h6>
@@ -138,7 +138,7 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column_content_copyright">
-       <img class="logo_place_footer" src="./images/logo_place_footer.svg">
+       <img class="logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс лого">
        <div class="footer__author">&copy; Софья Ивахненко</div>
       </div>
       <div class="footer__column_content_info">
@@ -151,28 +151,28 @@
       </div>
       <div class="footer__column_content_social">
         <p class="footer__column-heading">Соцсети</p>
-        <div class="footer__column-links">
-          <div class="footer__column-link" href="#">
-          <a href="#" class="footer__social-icon" >
-          <img src="./images/facebook_color_white.svg"/>
-          <a>Facebook</a>
-          </a>
-          </div>
-          <div class="footer__column-link" href="#">
-            <a href="#" class="footer__social-icon" >
-            <img src="./images/facebook_color_white.svg"/>
-            <a>ВКонтакте</a>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon"
+              src="./images/facebook_color_white.svg" alt="иконка Facebook">Facebook
             </a>
-            </div>
-            <div class="footer__column-link" href="#">
-              <a href="#" class="footer__social-icon" >
-              <img src="./images/facebook_color_white.svg"/>
-              <a>Instagram</a>
-              </a>
-              </div>
-        </div>
-      </div>
+            </li>
+          <li> 
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon"
+              src="./images/facebook_color_white.svg" alt="иконка ВКонтакте">ВКонтакте
+            </a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon"
+              src="./images/facebook_color_white.svg" alt="иконка Inatagram">Instagram
+            </a>
+          </li>
+        </ul>
     </div>
+  </div>
    </footer>
 </body>
 </html>

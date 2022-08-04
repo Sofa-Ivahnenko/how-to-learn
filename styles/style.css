@@ -29,6 +29,7 @@
   line-height:96px;
   font-size:102px;
   font-weight:600;
+  z-index: 2;
 }
 .header__subtitle{
   margin:0;
@@ -40,6 +41,7 @@
   line-height: 25px;
   font-size:18px;
   font-weight: normal;
+  z-index: 2;
 }
 .header__link{
   font-size: 18px;
@@ -48,6 +50,7 @@
   z-index:1;
   text-decoration:none;
   color:#2f80ed;
+  z-index: 2;
 }
 .header__link:hover{
   color:red;
@@ -60,6 +63,7 @@
   position: absolute;
   top:30px;
   left:64px;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -78,7 +82,6 @@
   bottom:0px;
   width: 765px;
   height:608px;
-  z-index:0;
   object-fit: cover;
 }
 .description{
@@ -99,7 +102,7 @@
   width:80%;
 }
 
-.two-columns__brief_title{
+.two-columns__brief{
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.2;
@@ -161,7 +164,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-top: 0;
 }
 .table__text{
@@ -209,10 +212,6 @@
 .feynman__link:hover{
   color:red;
 }
-.feynamn__circle-pic{
-  position: absolute;
-  left:0;
-}
 .feynman__illustration{
 position: absolute;
 left:0px;
@@ -247,6 +246,7 @@ z-index: 0;
   font-size: 24px;
   font-weight: normal;
   color: white;
+  margin-top: 20px;
 }
 .kaufman__triangle{
   width: 877px;
@@ -268,7 +268,8 @@ z-index: 0;
   padding:0;
   }
 .table__cell_theme_dark{
-  margin: 20px 0 60px 0;
+  margin-top: 80px;
+  margin-bottom: 0;
   width: 200px;
   color: white;
   z-index: 1;

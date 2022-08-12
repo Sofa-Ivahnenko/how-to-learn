@@ -1,11 +1,11 @@
 .resources__link{
     text-decoration: none;
   }
-  .resources__link-image{
+  .resources__logo{
     width: 270px;
     height: 38px;
   }
-  .resources__link-image:hover{
+  .resources__logo:hover{
     opacity: 0.6;
     transition: color 3s ease 1s;
   }

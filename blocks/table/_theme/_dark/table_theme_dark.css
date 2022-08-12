@@ -1,0 +1,9 @@
+.table_theme_dark{
+    display: flex;
+    justify-content:space-between;
+    width: 1100px;
+    flex-flow: row wrap;
+    text-align: left;
+    list-style:none;
+    padding:0;
+    }

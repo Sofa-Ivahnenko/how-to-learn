@@ -1,0 +1,10 @@
+.techniques{
+    display: flex;
+    max-width: 1600px;
+    margin:auto;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 100px;
+  }

@@ -1,0 +1,8 @@
+.video{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    overflow: visible;
+    margin-bottom: -90px;
+  }

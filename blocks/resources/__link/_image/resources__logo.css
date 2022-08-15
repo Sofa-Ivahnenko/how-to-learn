@@ -1,11 +1,8 @@
-.resources__link{
-    text-decoration: none;
-  }
   .resources__logo{
     width: 270px;
     height: 38px;
+    transition: opacity 2s linear 0s;
   }
   .resources__logo:hover{
-    opacity: 0.6;
-    transition: color 3s ease 1s;
+    opacity: .6;
   }
